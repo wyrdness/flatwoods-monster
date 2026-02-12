@@ -1,0 +1,537 @@
+{
+  "category": "CRYPTID/UFO_UAP",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/flatwoods-monster",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+
+  "phenomenon": {
+    "id": "flatwoods-monster",
+    "name": "Flatwoods Monster",
+    "aliases": [
+      {
+        "name": "Braxton County Monster",
+        "region": "West Virginia, USA"
+      },
+      {
+        "name": "Phantom of Flatwoods",
+        "region": "West Virginia, USA"
+      },
+      {
+        "name": "Green Monster",
+        "region": "West Virginia, USA",
+        "meaning": "Named for its glowing green appearance"
+      }
+    ],
+    "category": "CRYPTID/UFO_UAP",
+    "subcategory": "Entity",
+    "tags": [
+      "entity",
+      "ufo-related",
+      "west-virginia",
+      "1950s",
+      "alien-encounter",
+      "metallic",
+      "glowing",
+      "single-event"
+    ],
+    "status": "historical",
+    "description": {
+      "summary": "A 10-12 foot tall entity with a spade-shaped head, glowing red face, and metallic body encountered in Flatwoods, West Virginia on September 12, 1952, following a UFO sighting.",
+      "full": "The Flatwoods Monster, also known as the Braxton County Monster, is an entity reportedly encountered on September 12, 1952, in Flatwoods, West Virginia. The encounter began when local boys witnessed a bright object cross the sky and apparently land on the property of local farmer G. Bailey Fisher. A group including Kathleen May, her two sons, their friend Gene Lemon (a National Guardsman), and several other boys went to investigate. They reported encountering a 10-12 foot tall figure with a spade-shaped head, glowing red face, and a dark metallic body that appeared to hover or float. The entity allegedly emitted a hissing sound and released a mist that caused nausea and breathing difficulties in the witnesses. The incident was investigated by journalist Gray Barker and gained national attention. Skeptical explanations suggest the witnesses may have encountered a barn owl perched on a tree branch, with the 'UFO' being a meteor, though this explanation remains disputed."
+    },
+    "etymology": {
+      "origin": "Named after Flatwoods, West Virginia, the location of the encounter",
+      "meaning": "The Monster from Flatwoods",
+      "first_use": "1952"
+    }
+  },
+
+  "classification": {
+    "taxonomy": {
+      "category": "CRYPTID/UFO_UAP",
+      "type": "Entity",
+      "subtype": "Alleged Extraterrestrial",
+      "variant": "Single encounter"
+    },
+    "related_phenomena": [
+      {
+        "id": "hopkinsville-goblins",
+        "name": "Hopkinsville Goblins",
+        "relationship": "similar",
+        "description": "Another 1950s entity encounter in nearby Kentucky"
+      },
+      {
+        "id": "mothman",
+        "name": "Mothman",
+        "relationship": "regional",
+        "description": "Later West Virginia cryptid phenomenon"
+      },
+      {
+        "id": "loveland-frogman",
+        "name": "Loveland Frogman",
+        "relationship": "similar_era",
+        "description": "Similar bipedal cryptid from 1950s-70s"
+      }
+    ]
+  },
+
+  "characteristics": {
+    "physical": {
+      "height": {
+        "min": 3.0,
+        "max": 3.6,
+        "unit": "meters",
+        "confidence": "low"
+      },
+      "weight": {
+        "min": null,
+        "max": null,
+        "unit": "kilograms",
+        "confidence": "unknown"
+      },
+      "coloration": [
+        "dark green",
+        "metallic dark",
+        "glowing red (face)"
+      ],
+      "features": [
+        {
+          "feature": "Head",
+          "description": "Spade-shaped or ace-of-spades shaped head",
+          "frequency": "always"
+        },
+        {
+          "feature": "Face",
+          "description": "Glowing red face or eyes within the head area",
+          "frequency": "always"
+        },
+        {
+          "feature": "Body",
+          "description": "Dark metallic or green body, appeared mechanical or robotic",
+          "frequency": "always"
+        },
+        {
+          "feature": "Movement",
+          "description": "Appeared to hover or glide rather than walk",
+          "frequency": "reported"
+        },
+        {
+          "feature": "Limbs",
+          "description": "Arms described, legs uncertain - may have been hovering",
+          "frequency": "uncertain"
+        }
+      ],
+      "morphology": "Extremely tall figure with distinctive spade-shaped head, metallic appearance, and glowing red facial area. Body appeared dark and possibly mechanical. Movement suggested floating or hovering."
+    },
+    "abilities": [
+      {
+        "ability": "Hovering/Floating",
+        "description": "Entity appeared to float or hover above ground",
+        "frequency": "reported",
+        "evidence_level": "witness_testimony"
+      },
+      {
+        "ability": "Mist emission",
+        "description": "Released a mist or gas that caused nausea and breathing difficulties",
+        "frequency": "reported",
+        "evidence_level": "documented"
+      },
+      {
+        "ability": "Hissing sound",
+        "description": "Emitted a hissing or mechanical sound",
+        "frequency": "reported",
+        "evidence_level": "witness_testimony"
+      },
+      {
+        "ability": "Glowing emission",
+        "description": "Face or eyes emitted red glow",
+        "frequency": "always",
+        "evidence_level": "witness_testimony"
+      }
+    ],
+    "behavior": {
+      "activity_period": "night",
+      "disposition": "unknown",
+      "social_structure": "solitary",
+      "habitat_preference": [
+        "wooded area",
+        "near UFO landing site"
+      ],
+      "diet": "Unknown",
+      "patterns": [
+        "Associated with UFO sighting",
+        "Remained stationary when observed",
+        "Did not pursue witnesses when they fled"
+      ]
+    }
+  },
+
+  "distribution": {
+    "range": {
+      "description": "Single encounter location in Flatwoods, Braxton County, West Virginia",
+      "continents": ["North America"],
+      "countries": ["United States"],
+      "regions": [
+        "Flatwoods, West Virginia",
+        "Braxton County, West Virginia"
+      ]
+    },
+    "hotspots": [
+      {
+        "name": "Fisher Farm",
+        "location": {
+          "description": "G. Bailey Fisher property, Flatwoods",
+          "country": "United States",
+          "region": "West Virginia",
+          "locality": "Flatwoods, Braxton County",
+          "coordinates": {
+            "latitude": 38.6212,
+            "longitude": -80.6465,
+            "precision": "approximate"
+          }
+        },
+        "sighting_count": 1,
+        "peak_period": "1952-09-12",
+        "notes": "Single encounter location; no subsequent confirmed sightings"
+      }
+    ],
+    "temporal": {
+      "first_recorded": {
+        "date": "1952-09-12",
+        "circa": false,
+        "source": "Multiple witness accounts and contemporary news reports"
+      },
+      "peak_activity_periods": [
+        {
+          "period": "1952-09-12",
+          "description": "Single night encounter"
+        }
+      ],
+      "seasonal_patterns": "N/A - single event"
+    }
+  },
+
+  "history": {
+    "origins": {
+      "cultural_roots": "Part of 1950s wave of UFO and alien entity reports in United States",
+      "earliest_accounts": "September 12, 1952 encounter",
+      "folklore_connections": "Connected to broader UFO contactee era and Cold War anxieties"
+    },
+    "timeline": [
+      {
+        "date": "1952-09-12",
+        "event": "Initial sighting",
+        "significance": "Boys witness bright object cross sky and land on Fisher farm; group investigates and encounters entity",
+        "source": "Multiple witness accounts"
+      },
+      {
+        "date": "1952-09-13",
+        "event": "News coverage begins",
+        "significance": "Story reaches local and national press",
+        "source": "Contemporary newspapers"
+      },
+      {
+        "date": "1952-09-14",
+        "event": "Gray Barker investigation",
+        "significance": "Journalist and UFO researcher Gray Barker arrives to investigate",
+        "source": "Barker's reports"
+      },
+      {
+        "date": "1952-09",
+        "event": "National media attention",
+        "significance": "Story featured in newspapers nationwide, becoming one of most famous UFO entity encounters",
+        "source": "News archives"
+      },
+      {
+        "date": "2000",
+        "event": "Skeptical analysis",
+        "significance": "Joe Nickell proposes barn owl explanation for the entity",
+        "source": "Skeptical Inquirer"
+      },
+      {
+        "date": "2000s-present",
+        "event": "Cultural icon status",
+        "significance": "Flatwoods embraces the monster as local icon; museum and annual festival established",
+        "source": "Local tourism and cultural events"
+      }
+    ],
+    "modern_era": "The Flatwoods Monster has become a cultural icon in West Virginia, with the town of Flatwoods celebrating the legend through a museum, annual festival, and various commemorations. The incident is considered one of the most significant UFO-related entity encounters of the 1950s."
+  },
+
+  "sightings": {
+    "statistics": {
+      "total_documented": 1,
+      "verified": 0,
+      "disputed": 1,
+      "debunked": 0,
+      "date_range": {
+        "earliest": "1952-09-12",
+        "latest": "1952-09-12"
+      }
+    },
+    "notable": [
+      {
+        "id": "flatwoods-monster-1952",
+        "name": "The Flatwoods Encounter",
+        "date": {
+          "value": "1952-09-12",
+          "precision": "exact"
+        },
+        "location": {
+          "description": "G. Bailey Fisher farm, Flatwoods, Braxton County",
+          "country": "United States",
+          "region": "West Virginia",
+          "locality": "Flatwoods",
+          "coordinates": {
+            "latitude": 38.6212,
+            "longitude": -80.6465,
+            "precision": "approximate"
+          }
+        },
+        "witnesses": {
+          "count": 7,
+          "types": ["Local residents", "National Guardsmen", "Children"],
+          "credibility_factors": ["Multiple witnesses", "Included adults", "Contemporary documentation", "Physical effects reported"]
+        },
+        "description": "On the evening of September 12, 1952, brothers Edward and Fred May, along with their friend Tommy Hyer, witnessed a bright object cross the sky and land on the nearby Fisher farm. They enlisted Kathleen May (the boys' mother), local National Guardsman Eugene 'Gene' Lemon, and brothers Neil Nunley and Ronnie Shaver to investigate. As the group climbed the hill, they reported a pungent mist that caused breathing difficulties and nausea. Gene Lemon's dog ran ahead and began barking, then came running back in apparent fear. The group encountered a large pulsating ball of fire. When Lemon shone his flashlight toward a nearby oak tree, they saw a 10-12 foot tall figure with a spade-shaped head, glowing red face, and dark metallic body that appeared to hover. The entity emitted a hissing sound. Terrified, the group fled. Several witnesses became ill afterward, experiencing symptoms including vomiting, convulsions, and irritated throats. Local sheriff Robert Carr and deputy Burnell Long investigated the site later that night, finding skid marks and an area of flattened grass with a strange odor, but no entity.",
+        "conditions": {
+          "weather": "Clear",
+          "visibility": "Night, flashlight illumination",
+          "time_of_day": "Evening (approximately 7:15 PM)",
+          "duration": "Brief (several seconds of entity observation)"
+        },
+        "evidence": [
+          "Multiple witness testimony",
+          "Physical effects on witnesses (nausea, vomiting, throat irritation)",
+          "Flattened grass and skid marks at site",
+          "Strange odor reported by multiple parties",
+          "Contemporary newspaper coverage",
+          "Gray Barker investigation report"
+        ],
+        "credibility": {
+          "rating": "medium",
+          "factors": [
+            "Multiple credible witnesses including adults",
+            "Physical symptoms experienced by witnesses",
+            "Evidence of disturbance at site",
+            "Contemporary documentation",
+            "Possible misidentification of barn owl and meteor",
+            "Panic and poor lighting conditions",
+            "Gray Barker known for embellishment"
+          ],
+          "notes": "One of most documented UFO entity encounters of 1950s. Skeptics propose barn owl misidentification, but witnesses maintained consistent accounts. Physical symptoms suggest genuine frightening experience, whether entity was extraterrestrial, animal, or misperception."
+        },
+        "sources": [
+          "Contemporary newspaper accounts (1952)",
+          "Barker, G. (1952-1953). Investigation reports",
+          "Feschino, F. (2004). The Braxton County Monster",
+          "Nickell, J. (2000). Skeptical analysis"
+        ],
+        "featured": true
+      }
+    ],
+    "database_path": "./sightings/"
+  },
+
+  "evidence": {
+    "physical": [
+      {
+        "id": "flatwoods-ground-traces",
+        "type": "ground traces",
+        "name": "Flattened grass and skid marks",
+        "date": "1952-09-12",
+        "description": "Sheriff's investigation found area of flattened grass and marks on the ground at the encounter site",
+        "location": "Fisher farm, Flatwoods, WV",
+        "status": "historical",
+        "analysis": "Contemporary investigation noted disturbance; no samples preserved for modern analysis",
+        "source": "Sheriff Robert Carr report"
+      },
+      {
+        "id": "flatwoods-odor",
+        "type": "trace evidence",
+        "name": "Strange odor",
+        "date": "1952-09-12",
+        "description": "Pungent, metallic smell reported by witnesses and later by sheriff's investigators",
+        "status": "historical",
+        "analysis": "Multiple witnesses reported smell; caused physical reactions. No samples collected.",
+        "source": "Multiple witness accounts"
+      }
+    ],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": [
+      {
+        "id": "flatwoods-illness",
+        "type": "physiological effects",
+        "name": "Witness illness",
+        "description": "Multiple witnesses experienced nausea, vomiting, throat irritation, and in some cases convulsions following exposure",
+        "status": "documented",
+        "analysis": "Symptoms consistent with extreme fear response or possible exposure to irritant. No medical records preserved."
+      }
+    ]
+  },
+
+  "theories": {
+    "paranormal": [
+      {
+        "name": "Extraterrestrial entity",
+        "description": "Entity was extraterrestrial being associated with UFO landing",
+        "proponents": ["Gray Barker", "Frank Feschino Jr.", "UFO researchers"],
+        "evidence_cited": ["Preceding UFO sighting", "Metallic appearance", "Hovering ability", "Physical effects on witnesses"]
+      },
+      {
+        "name": "Alien reconnaissance",
+        "description": "Entity was extraterrestrial scout or robotic probe from crashed or landed craft",
+        "proponents": ["UFO researchers"],
+        "evidence_cited": ["Association with aerial object", "Mechanical appearance", "Brief encounter"]
+      }
+    ],
+    "scientific": [],
+    "skeptical": [
+      {
+        "name": "Barn owl misidentification",
+        "description": "Witnesses encountered a barn owl perched on tree branch, with meteor sighting creating UFO expectation",
+        "proponents": ["Joe Nickell", "Skeptical investigators"],
+        "evidence_cited": ["Barn owl heart-shaped face resembles 'spade shape'", "Owls can appear large at night", "Eyes reflect red in flashlight", "Hissing is defensive owl behavior", "Meteor seen region-wide that night"]
+      },
+      {
+        "name": "Mass hysteria",
+        "description": "Initial meteor sighting combined with fear, darkness, and expectation created shared misperception",
+        "proponents": ["Skeptics", "Psychologists"],
+        "evidence_cited": ["1950s UFO panic atmosphere", "Group panic evident", "Brief observation period", "Physical symptoms consistent with extreme fear"]
+      },
+      {
+        "name": "Embellishment",
+        "description": "Initial encounter with mundane object or animal embellished by witnesses and investigators",
+        "proponents": ["Skeptics"],
+        "evidence_cited": ["Gray Barker known for embellishing UFO cases", "Story details increased over time", "No photographs despite national attention"]
+      }
+    ]
+  },
+
+  "cultural": {
+    "folklore": {
+      "traditions": [
+        "Flatwoods Monster Day annual festival",
+        "Local West Virginia folklore"
+      ],
+      "stories": [
+        "The September 12, 1952 encounter",
+        "Various embellished retellings in cryptid literature"
+      ],
+      "beliefs": "Ranges from genuine belief in extraterrestrial encounter to local pride in famous legend"
+    },
+    "indigenous": {
+      "cultures": [],
+      "significance": "No known Indigenous connections",
+      "sensitivity_note": "Not connected to Indigenous traditions",
+      "respect_guidelines": "N/A"
+    },
+    "popular_culture": {
+      "literature": [
+        "Barker, G. (1956). They Knew Too Much About Flying Saucers",
+        "Feschino, F. (2004). The Braxton County Monster",
+        "Various UFO and cryptid encyclopedias"
+      ],
+      "film_tv": [
+        "Secret of the Flying Saucer (1956) - possibly inspired by incident",
+        "MonsterQuest episode",
+        "Mountain Monsters TV series episodes",
+        "Various UFO documentaries"
+      ],
+      "games": [
+        "Fallout 76 - features Flatwoods Monster as enemy creature"
+      ],
+      "other": [
+        "Flatwoods Monster Museum",
+        "Annual Flatwoods Monster Festival",
+        "Town of Flatwoods embraces as mascot",
+        "Metal statue in Flatwoods",
+        "Local businesses use monster imagery",
+        "West Virginia folklore icon"
+      ]
+    }
+  },
+
+  "research": {
+    "researchers": [
+      {
+        "name": "Gray Barker",
+        "affiliation": "Independent UFO researcher",
+        "contribution": "First investigator on scene; documented case extensively (though known for embellishment)",
+        "period": "1952-1953"
+      },
+      {
+        "name": "Frank Feschino Jr.",
+        "affiliation": "Independent researcher",
+        "contribution": "Extensive research and book on Braxton County Monster",
+        "period": "2000s"
+      },
+      {
+        "name": "Joe Nickell",
+        "affiliation": "Skeptical Inquirer",
+        "contribution": "Proposed barn owl explanation through analysis of witness descriptions",
+        "period": "2000"
+      }
+    ],
+    "organizations": [
+      {
+        "name": "Flatwoods Monster Museum",
+        "url": "http://www.flatwoodsmonstermuseum.com/",
+        "focus": "Preservation of encounter history and local culture"
+      }
+    ],
+    "ongoing_studies": "Limited active research. Primarily historical and cultural interest. Case remains point of debate between UFO researchers and skeptics."
+  },
+
+  "sources": [
+    {
+      "id": "feschino-2004",
+      "type": "book",
+      "title": "The Braxton County Monster: The Cover-Up of the Flatwoods Monster Revealed",
+      "authors": ["Frank Feschino Jr."],
+      "publication": "Quarrier Press",
+      "date": "2004",
+      "isbn": "978-1891852282"
+    },
+    {
+      "id": "barker-1956",
+      "type": "book",
+      "title": "They Knew Too Much About Flying Saucers",
+      "authors": ["Gray Barker"],
+      "publication": "University Books",
+      "date": "1956"
+    },
+    {
+      "id": "nickell-2000",
+      "type": "article",
+      "title": "The Flatwoods UFO Monster",
+      "authors": ["Joe Nickell"],
+      "publication": "Skeptical Inquirer",
+      "date": "2000-11"
+    },
+    {
+      "id": "contemporary-news-1952",
+      "type": "news",
+      "title": "Various newspaper accounts",
+      "date": "1952-09",
+      "description": "Contemporary coverage in Charleston Gazette, local West Virginia papers, and national news services"
+    }
+  ]
+}
