@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/flatwoods-monster",
     "maintainers": [
       {
@@ -16,111 +16,331 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "flatwoods-monster",
     "name": "Flatwoods Monster",
-    "aliases": [],
-    "category": "CRYPTID/UFO_UAP",
-    "subcategory": "| Description | Status |",
-    "tags": [
-      "folklore",
-      "mythology"
+    "aliases": [
+      { "name": "Braxton County Monster", "language": "English", "region": "West Virginia, USA" },
+      { "name": "Phantom of Flatwoods", "language": "English", "region": "West Virginia, USA" },
+      { "name": "Green Monster", "language": "English", "region": "West Virginia press, 1952" }
     ],
-    "status": "documented",
+    "category": "UFO_UAP",
+    "subcategory": "Close encounter / alleged extraterrestrial entity",
+    "tags": [
+      "ufo",
+      "close-encounter",
+      "1952",
+      "west-virginia",
+      "appalachia",
+      "entity-encounter",
+      "saucer-era"
+    ],
+    "status": "historical",
     "description": {
-      "summary": "The Flatwoods Monster, also known as the Braxton County Monster, is an entity reportedly encountered on September 12, 1952, in Flatwoods, West Virginia.",
-      "full": "The Flatwoods Monster, also known as the Braxton County Monster, is an entity reportedly encountered on September 12, 1952, in Flatwoods, West Virginia. The encounter began when local boys witnessed a bright object cross the sky and apparently land on the property of local farmer G. Bailey Fisher. A group including Kathleen May, her two sons, their friend Gene Lemon (a National Guardsman), and several other boys went to investigate. They reported encountering a 10-12 foot tall figure with a spade-shaped head, glowing red face, and a dark metallic body that appeared to hover or float. The entity allegedly emitted a hissing sound and released a mist that caused nausea and breathing difficulties in the witnesses. The incident was investigated by journalist Gray Barker and gained national attention, becoming one of the most famous UFO-related entity encounters of the 1950s. Skeptical explanations suggest the witnesses may have encountered a barn owl perched on a tree branch, with the 'UFO' being a meteor, though this explanation remains disputed."
+      "summary": "The Flatwoods Monster is a 10-foot-tall, spade-headed entity allegedly encountered by a group of seven witnesses in Flatwoods, West Virginia, on the night of 12 September 1952, in connection with a fireball that crossed the eastern United States.",
+      "full": "The Flatwoods Monster, also called the Braxton County Monster, is one of the most famous American UFO-related entity encounters of the 1950s. On the evening of 12 September 1952, a brilliant meteor was widely observed crossing the skies of Pennsylvania, Maryland, Ohio, and West Virginia. Around 7:15 PM, three boys in Flatwoods, West Virginia (Edward May, Fred May, and Tommy Hyer) saw what they took to be the object descending toward the property of farmer G. Bailey Fisher. Joined by Kathleen May (Edward and Fred's mother), 17-year-old West Virginia National Guardsman Eugene 'Gene' Lemon, and Neil Nunley and Ronnie Shaver, the group climbed Fisher's hill with a flashlight and Lemon's dog. Near the top they reported a pulsating glow, a foul mist that made them nauseous, and, in the beam of their light, a creature roughly 10 feet tall with a 'blood-red' face, glowing greenish-orange eyes, a spade-shaped head behind a black cowl, and clawed hands or appendages. The figure hissed, glided toward them, and the witnesses fled. The story was investigated locally by Sheriff Robert Carr, picked up by Charleston journalists, and given national circulation by Gray Barker in Fate magazine (January 1953) and by the early UFO community. The most-cited skeptical explanation, advanced in detail by Joe Nickell of the Committee for Skeptical Inquiry in 2000, identifies the entity as a barn owl perched in an oak tree, with the cowl and 'body' an artefact of the foliage and the witnesses' panic; the 'UFO' is widely accepted as a meteor that night, with a possible aircraft beacon contributing the pulsing red light. The case remains a foundational episode of West Virginia high-strangeness folklore and is now embodied in the Flatwoods Monster Museum in Sutton (opened 2018) and a series of giant monster-shaped chairs along the 'Braxxie Trail'."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Named for the unincorporated community of Flatwoods in Braxton County, West Virginia, where the encounter occurred. 'Braxton County Monster' was the alternative name used in the early West Virginia press.",
+      "meaning": "A locative cryptid name; 'Flatwoods' is the name of the village where the witnesses lived.",
+      "first_use": "September 1952 in West Virginia regional press; 'Flatwoods Monster' became the standard name through the 1950s UFO literature."
     }
   },
+
   "classification": {
     "taxonomy": {
-      "category": "CRYPTID/UFO_UAP",
-      "type": "| Description | Status |",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "category": "UFO_UAP",
+      "type": "Close encounter / alleged extraterrestrial entity",
+      "subtype": "1950s saucer-era humanoid encounter",
+      "variant": "American Appalachian"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "mothman", "name": "Mothman", "relationship": "regional_variant", "description": "Other major West Virginia high-strangeness cryptid (Point Pleasant, 1966–67)" },
+      { "id": "hopkinsville-goblins", "name": "Hopkinsville Goblins", "relationship": "similar", "description": "1955 Kentucky entity / saucer encounter often paired with Flatwoods" },
+      { "id": "kelly-cahill-encounter", "name": "Kelly–Cahill encounter", "relationship": "similar", "description": "1993 Australian close encounter with humanoid entities" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "height": { "min": 2.7, "max": 3.7, "unit": "meters", "confidence": "low" },
+      "coloration": ["dark green / black metallic body", "blood-red face", "greenish-orange glowing eyes"],
+      "features": [
+        { "feature": "Spade-shaped or 'ace-of-spades' head", "description": "Dark cowl-like head behind a red face described by Kathleen May as resembling 'the ace of spades'", "frequency": "always" },
+        { "feature": "Glowing eyes", "description": "Two windows or eye-like apertures emitting greenish-orange light", "frequency": "always" },
+        { "feature": "Skirted lower body", "description": "Witnesses described a metallic, pleated, skirt-like lower body rather than legs; the figure appeared to glide", "frequency": "always" },
+        { "feature": "Clawed forelimbs", "description": "Small clawed hands or short stub-like arms", "frequency": "common" },
+        { "feature": "Pulsating red glow", "description": "Associated with the landed object, with intermittent red light interpreted by Nickell (2000) as plausibly an aircraft beacon", "frequency": "always" },
+        { "feature": "Foul mist or odor", "description": "Sulfurous / metallic mist that the witnesses said caused nausea, watering eyes, and breathing difficulty", "frequency": "always" }
+      ],
+      "morphology": "Short-duration nighttime encounter with multiple witnesses. The 'monster' was seen briefly in a flashlight beam in dense woodland foliage; descriptions are consistent across the group on overall shape, colour, and the spade-head silhouette."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Hovering / gliding locomotion", "description": "Witnesses reported the entity glided toward them rather than walked", "frequency": "always", "evidence_level": "reported" },
+      { "ability": "Hissing vocalization", "description": "Loud hiss heard immediately before the entity moved", "frequency": "always", "evidence_level": "reported" },
+      { "ability": "Toxic mist", "description": "Witnesses became nauseous and short of breath after the encounter; symptoms persisted for hours", "frequency": "always", "evidence_level": "reported" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "neutral",
+      "social_structure": "solitary",
+      "habitat_preference": [
+        "Wooded hilltop above Flatwoods village",
+        "Adjacent to a glowing landed object"
+      ],
+      "patterns": [
+        "Single recorded encounter, 12 September 1952",
+        "Associated with a meteor / fireball event widely observed across the eastern United States that evening"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "A single localized incident in central West Virginia. Subsequent regional folklore and tourism are concentrated in Braxton County and the town of Sutton.",
+      "continents": ["North America"],
+      "countries": ["United States"],
+      "regions": [
+        "Braxton County, West Virginia",
+        "Central Appalachia"
+      ]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Fisher Farm hill, Flatwoods",
+        "location": {
+          "description": "Wooded hill on the property of G. Bailey Fisher, above the village of Flatwoods",
+          "country": "United States",
+          "region": "Braxton County, West Virginia",
+          "coordinates": { "latitude": 38.7212, "longitude": -80.6520 }
+        },
+        "sighting_count": 1,
+        "peak_period": "1952-09-12",
+        "notes": "Site of the original encounter on 12 September 1952."
+      },
+      {
+        "name": "Flatwoods Monster Museum, Sutton",
+        "location": {
+          "description": "Braxton County Convention and Visitors Bureau museum dedicated to the case",
+          "country": "United States",
+          "region": "West Virginia",
+          "coordinates": { "latitude": 38.6701, "longitude": -80.7028 }
+        },
+        "peak_period": "2018–present",
+        "notes": "Opened in 2018; centre of the contemporary 'Braxxie Trail' tourism programme."
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
-        "circa": true,
-        "source": "Traditional folklore"
-      }
+        "date": "1952-09-12",
+        "circa": false,
+        "source": "Braxton Democrat (Sutton, WV) and Charleston Daily Mail, September 1952"
+      },
+      "peak_activity_periods": [
+        { "period": "1952-09–1953-01", "description": "Primary press coverage from West Virginia papers through Gray Barker's January 1953 Fate magazine article" }
+      ],
+      "seasonal_patterns": "Single event."
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "The Flatwoods incident occurred at the height of the 1950s American 'flying saucer' wave, three months after the high-profile July 1952 Washington, D.C. radar contacts. It became a foundational case in the early UFO literature and in the development of the 'high strangeness' close-encounter sub-genre.",
+      "earliest_accounts": "Eyewitness statements were taken by Braxton County Sheriff Robert Carr on the night of 12 September 1952 and reported in the Braxton Democrat and Charleston Daily Mail within days.",
+      "folklore_connections": "The Flatwoods Monster is paired in modern Appalachian folklore with the Mothman (Point Pleasant, 1966–67) and is part of the wider West Virginia high-strangeness tradition."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1952-09-12", "event": "At c. 7:15 PM, a group of seven witnesses (Kathleen May, Edward May, Fred May, Tommy Hyer, Eugene Lemon, Neil Nunley, Ronnie Shaver) climb Fisher's hill in Flatwoods, WV and report encountering a 10-foot spade-headed entity by a glowing object", "significance": "Primary incident", "source": "Braxton Democrat (Sutton, WV), September 1952" },
+      { "date": "1952-09-13", "event": "Sheriff Robert Carr, A. Lee Stewart Jr. of the Braxton Democrat, and others investigate the site, finding flattened grass, an oily substance, and an odor", "significance": "First on-site investigation", "source": "Stewart, A. L., Braxton Democrat (1952)" },
+      { "date": "1952-09-19", "event": "Kathleen May and Eugene Lemon appear on the CBS television programme We the People, hosted by Dan Seymour", "significance": "First national television exposure of the case", "source": "We the People, CBS Television (1952)" },
+      { "date": "1953-01-01", "event": "Gray Barker publishes 'The Monster and the Saucer' in Fate magazine (January 1953)", "significance": "Foundational national-magazine treatment", "source": "Barker, G., Fate, January 1953" },
+      { "date": "1956-01-01", "event": "Gray Barker expands the case in They Knew Too Much About Flying Saucers", "significance": "Anchors the case in 1950s UFO literature", "source": "Barker, G. (1956)" },
+      { "date": "2000-10-01", "event": "Joe Nickell publishes a detailed skeptical investigation in Skeptical Inquirer identifying the entity as a barn owl in foliage", "significance": "Standard skeptical reference for the case", "source": "Nickell, J. (2000), Skeptical Inquirer 24:6" },
+      { "date": "2018-09-01", "event": "Flatwoods Monster Museum opens in Sutton, West Virginia, run by the Braxton County Convention and Visitors Bureau", "significance": "Civic/tourism reception", "source": "Braxton County CVB" }
+    ],
+    "modern_era": "The case is sustained by ongoing tourism in Braxton County (the Flatwoods Monster Museum in Sutton, the giant chair 'Braxxie Trail', and the annual Flatwoods Monster Convention since 2019), by appearances in popular media including Bethesda's Fallout 76 (2018) and the History Channel's Project Blue Book (2019), and by continuing skeptical and folkloristic study."
   },
+
   "sightings": {
     "statistics": {
-      "total_documented": 0,
+      "total_documented": 1,
       "verified": 0,
-      "disputed": 0,
-      "debunked": 0
+      "disputed": 1,
+      "debunked": 0,
+      "date_range": { "earliest": "1952-09-12", "latest": "1952-09-12" }
     },
-    "notable": [],
+    "notable": [
+      {
+        "id": "flatwoods-sighting-1952-09-12",
+        "name": "Flatwoods encounter",
+        "date": { "value": "1952-09-12", "precision": "exact" },
+        "location": {
+          "description": "Wooded hill on the G. Bailey Fisher farm above the village of Flatwoods",
+          "country": "United States",
+          "region": "West Virginia",
+          "locality": "Braxton County",
+          "coordinates": { "latitude": 38.7212, "longitude": -80.6520, "precision": "approximate" }
+        },
+        "witnesses": {
+          "count": 7,
+          "types": [
+            "Kathleen May (mother)",
+            "Edward May (12, son)",
+            "Fred May (13, son)",
+            "Tommy Hyer (10)",
+            "Eugene 'Gene' Lemon (17, West Virginia National Guardsman)",
+            "Neil Nunley (14)",
+            "Ronnie Shaver (10)"
+          ],
+          "credibility_factors": [
+            "Multiple consistent witnesses",
+            "Same-day inspection by Sheriff Robert Carr and journalist A. Lee Stewart Jr.",
+            "Witnesses reported physical symptoms (nausea, throat irritation) consistent with each other"
+          ]
+        },
+        "description": "Following a brilliant meteor visible across the eastern United States, three boys saw what they thought was a craft descending into the Fisher property. They alerted Kathleen May and were joined by Eugene Lemon, Neil Nunley, and Ronnie Shaver. With a flashlight and Lemon's dog, the group climbed the hill. Near a glowing pulsating object, Lemon's flashlight beam fell on a 10-foot figure with a red, ace-of-spades-shaped face, glowing greenish-orange eyes, and a dark, skirted, metallic body. The entity hissed and glided toward them; the group fled, several reporting nausea and throat irritation.",
+        "conditions": { "weather": "Clear, dry early autumn evening", "visibility": "Night, illuminated by flashlight only", "time_of_day": "c. 7:15 PM EDT", "duration": "Encounter lasting under one minute" },
+        "evidence": [
+          "Eyewitness testimony of seven people",
+          "Reported flattened grass and an oily skid mark on the hill (recorded by Sheriff Carr and reporter A. Lee Stewart Jr.)",
+          "Documented widely-witnessed meteor over the eastern US that night"
+        ],
+        "credibility": {
+          "rating": "medium",
+          "factors": [
+            "Multiple consistent witnesses across different ages and households",
+            "Same-day investigation by sheriff and journalist",
+            "No photographic or trace evidence preserved",
+            "Most-cited skeptical explanation (Nickell 2000) is the barn-owl hypothesis"
+          ],
+          "notes": "Foundational 1952 saucer-era case; widely cited and widely contested."
+        },
+        "sources": [
+          "Braxton Democrat (Sutton, WV), Sept 1952",
+          "Barker, G. (1953), Fate, January 1953",
+          "Nickell, J. (2000), Skeptical Inquirer 24:6"
+        ],
+        "featured": true
+      }
+    ],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [
+      {
+        "id": "flatwoods-evidence-skid-marks",
+        "type": "ground trace",
+        "name": "Reported skid marks and oily residue on Fisher's hill",
+        "date": "1952-09-13",
+        "description": "Sheriff Robert Carr and Braxton Democrat reporter A. Lee Stewart Jr. reported flattened grass, a faint odor, and what they described as an oily skid mark on the hill the morning after the encounter.",
+        "location": "Fisher Farm hill, Flatwoods, West Virginia",
+        "status": "unverified",
+        "analysis": "No physical sample preserved; later researchers (Nickell 2000) note alternative explanations including livestock paths.",
+        "source": "Braxton Democrat (1952); Barker (1953)"
+      }
+    ],
+    "documentary": [
+      {
+        "id": "flatwoods-evidence-fate-1953",
+        "type": "magazine article",
+        "name": "'The Monster and the Saucer'",
+        "date": "1953-01",
+        "description": "Gray Barker's January 1953 Fate magazine article giving the case its first national circulation.",
+        "status": "verified",
+        "analysis": "The single most influential early text on the case, though written from a pro-UFO perspective.",
+        "source": "Barker, G., Fate, Jan 1953"
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "paranormal": [
+      {
+        "name": "Extraterrestrial close encounter",
+        "description": "Standard early UFO-literature reading: the witnesses encountered a landed extraterrestrial craft and an extraterrestrial entity wearing a suit.",
+        "proponents": ["Gray Barker", "Ivan T. Sanderson", "Frank Feschino Jr."],
+        "evidence_cited": ["Witness consistency", "Co-occurring fireball", "Reported physical symptoms"]
+      }
+    ],
+    "scientific": [
+      {
+        "name": "Meteor + barn-owl misidentification",
+        "description": "The descending object was a meteor (an event independently documented across the eastern US that night). The 'monster' was a startled barn owl perched in the lower branches of an oak above the witnesses, whose foliage formed the silhouette of a body and 'cowl'. Pulsing red light came from a nearby aircraft beacon. Nausea and throat irritation can be attributed to acute fear, the smell of burning ozone or aviation kerosene, and possibly local environmental factors.",
+        "proponents": ["Joe Nickell (Committee for Skeptical Inquiry)", "Robert Sheaffer"],
+        "evidence_cited": ["Independent meteor records of 1952-09-12", "Documented red aircraft warning lights in the area", "Ornithological behaviour of barn owls (Tyto alba) under flashlight illumination"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Mass panic and embellishment",
+        "description": "Skeptical commentators argue the witnesses, primed by extensive 1952 saucer coverage, encountered an ambiguous nocturnal stimulus (likely an owl) and constructed a coherent monster narrative collectively.",
+        "proponents": ["Joe Nickell", "Robert Sheaffer", "Benjamin Radford"],
+        "evidence_cited": ["1952 was the peak year of the second great UFO wave", "Witness ages (10–17, plus Kathleen May) and night-time conditions", "Documented panic of the dog"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "West Virginia high-strangeness tradition (paired with Mothman)",
+        "American 1950s flying-saucer folklore"
+      ],
+      "stories": [
+        "The 12 September 1952 encounter and Kathleen May's televised account on We the People (CBS, 1952)"
+      ],
+      "beliefs": "Locally treated as a defining piece of Braxton County identity, regardless of the believer/skeptic split, and curated through the Flatwoods Monster Museum and the Braxxie Trail."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
-      "games": [],
-      "other": []
+      "literature": [
+        "They Knew Too Much About Flying Saucers — Gray Barker (1956)",
+        "The Braxton County Monster — Frank C. Feschino Jr. (2004)",
+        "Strange West Virginia Monsters — Michael Newton (2015)"
+      ],
+      "film_tv": [
+        "We the People (CBS, 19 September 1952) — Kathleen May appearance",
+        "Project Blue Book — 'The Flatwoods Monster' (History Channel, 2019)",
+        "Hometown Tales: West Virginia (regional documentary)"
+      ],
+      "games": [
+        "Fallout 76 — featured cryptid (Bethesda, 2018)",
+        "Everybody's Golf 4 (PlayStation 2, 2003) — appearance as obstacle"
+      ],
+      "music": [],
+      "other": [
+        "Flatwoods Monster Museum, Sutton, West Virginia (opened 2018)",
+        "Braxxie Trail of giant monster chairs",
+        "Annual Flatwoods Monster Festival (since 2019)"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "Gray Barker", "affiliation": "Independent UFO researcher (West Virginia)", "contribution": "Investigated the case in 1952 and published the foundational 1953 Fate magazine article and 1956 book", "period": "1952–1984" },
+      { "name": "Frank C. Feschino Jr.", "affiliation": "Independent researcher", "contribution": "Long-running investigation of the case, monograph The Braxton County Monster (2004)", "period": "1990s–present" },
+      { "name": "Joe Nickell", "affiliation": "Committee for Skeptical Inquiry", "contribution": "2000 skeptical investigation identifying the entity as a barn owl", "period": "2000" },
+      { "name": "Andrew Smith", "affiliation": "Braxton County Convention and Visitors Bureau", "contribution": "Director of the Flatwoods Monster Museum (Sutton, WV)", "period": "2018–present" }
+    ],
+    "organizations": [
+      { "name": "Flatwoods Monster Museum", "url": "https://flatwoodsmonster.com/", "focus": "Curation, exhibition, and research on the 1952 case" },
+      { "name": "Committee for Skeptical Inquiry", "url": "https://skepticalinquirer.org/", "focus": "Skeptical investigation of paranormal claims, including Flatwoods" }
+    ],
+    "ongoing_studies": "Continuing curatorial work at the Flatwoods Monster Museum, periodic re-investigation by skeptical and pro-UFO writers, and folkloristic study of the Braxton County tourism reception."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "barker-1956", "type": "book", "title": "They Knew Too Much About Flying Saucers", "authors": ["Gray Barker"], "publication": "University Books", "date": "1956" },
+    { "id": "feschino-2004", "type": "book", "title": "The Braxton County Monster: The Cover-up of the Flatwoods Monster Revealed", "authors": ["Frank C. Feschino Jr."], "publication": "Quarrier Press", "date": "2004", "isbn": "978-1891852442" },
+    { "id": "nickell-2000", "type": "article", "title": "The Flatwoods UFO Monster", "authors": ["Joe Nickell"], "publication": "Skeptical Inquirer 24:6", "date": "2000-11" },
+    { "id": "barker-1953", "type": "article", "title": "The Monster and the Saucer", "authors": ["Gray Barker"], "publication": "Fate magazine", "date": "1953-01" },
+    { "id": "wikipedia-flatwoods-monster", "type": "website", "title": "Flatwoods Monster", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Flatwoods_monster", "accessed": "2026-05-07" },
+    { "id": "flatwoods-museum", "type": "website", "title": "Flatwoods Monster Museum", "publication": "Braxton County Convention and Visitors Bureau", "url": "https://flatwoodsmonster.com/", "accessed": "2026-05-07" }
+  ]
 }
